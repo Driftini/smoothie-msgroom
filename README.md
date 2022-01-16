@@ -13,19 +13,15 @@
 It also adds a few simple animations to further improve the user experience!
 ![image](https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/cmdbox.gif)
 
-**I am aware it doesn't fully work on Chromium based browsers, I am working on a fix.**
-
-## Why this name?
-No idea, really. An old (unrelated) stylesheet I made was called Pancake, so I guessed it would've been cool to keep naming themes after desserts.
-
 ## How do I install it?
-
 ### The quick way...
+> If you're not using Firefox, it is highly recommended to download the **compat** variant of the theme from the Releases page. 
+
 Simple: download the latest release's CSS file and, in https://windows96.net, import it in `C:/user/appdata/MsgRoom/themes`.
 Finally, open MsgRoom and in the menubar, go from **Session** to **Themes**, then choose **Smoothie**.
 
 ### ...and the slow one
-Alternatively, you can export the CSS file yourself, straight from the source SCSS file.
+Alternatively, you can export the CSS file (only compatible with Firefox) yourself, straight from the source SCSS file.
 
 A word of warning: **this only works on Linux for now.**
 
@@ -40,6 +36,9 @@ bash build
 Once done, you'll find the CSS file in the newly created `out` folder.
 
 Obviously all that's left to do now is import the file in the right path in Win96 and enable it in MsgRoom.
+
+## Why this name?
+No idea, really. An old (unrelated) stylesheet I made was called Pancake, so I guessed it would've been cool to keep naming themes after desserts.
 
 ## Where can I contact you?
 I recommend joining the ![Windows 96 official Discord server](https://discord.gg/KCTaM75).
