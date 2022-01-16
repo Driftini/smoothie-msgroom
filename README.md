@@ -22,6 +22,7 @@ No idea, really. An old (unrelated) stylesheet I made was called Pancake, so I g
 
 ### The quick way...
 Simple: download the latest release's CSS file and, in https://windows96.net, import it in `C:/user/appdata/MsgRoom/themes`.
+Finally, open MsgRoom and in the menubar, go from **Session** to **Themes**, then choose **Smoothie**.
 
 ### ...and the slow one
 Alternatively, you can export the CSS file yourself, straight from the source SCSS file.
@@ -38,7 +39,7 @@ bash build
 ```
 Once done, you'll find the CSS file in the newly created `out` folder.
 
-Obviously all that's left to do now is import the file in the right path in Win96.
+Obviously all that's left to do now is import the file in the right path in Win96 and enable it in MsgRoom.
 
 ## Where can I contact you?
 I recommend joining the ![Windows 96 official Discord server](https://discord.gg/KCTaM75).
