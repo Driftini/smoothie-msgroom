@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/logo.svg"><br>
+	<img src="https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/logo.svg" style="height: 200px"><br>
 	<img src="https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/screenshot.png">
 	<p>
 		Forget the hard, flat color fills.<br>
