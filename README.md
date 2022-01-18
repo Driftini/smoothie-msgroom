@@ -42,6 +42,6 @@ Obviously all that's left to do now is import the file in the right path in Win9
 No idea, really. An old (unrelated) stylesheet I made was called Pancake, so I guessed it would've been cool to keep naming themes after desserts.
 
 ## Where can I contact you?
-I recommend joining the ![Windows 96 official Discord server](https://discord.gg/KCTaM75).
+I recommend joining the [Windows 96 official Discord server](https://discord.gg/KCTaM75).
 
 Not only you can talk to me there, but you can also find a lot more people developing cool stuff for the website!
