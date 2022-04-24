@@ -1,5 +1,5 @@
 /*! Smoothie.css theme for MsgRoom.
-	 	 			Author: Driftini		 
+					Author: Driftini		 
 */
 
 /* Animations */
@@ -48,6 +48,11 @@ body {
 		border-right: 1px solid #0000008f;
 	}
 
+	::selection {
+		background-color: #35a5;
+		color: #efefef;
+	}
+
 	/* Input Panel */
 
 	.user-input {
@@ -62,7 +67,7 @@ body {
 			#232323 100%
 		);
 		border-top: 1px solid #777777;
-		border-bottom: 1px solid #111111;
+		outline: 1px solid #111111;
 		box-shadow: 0 0 15px 0px #000000af;
 
 		.message-box {
@@ -253,8 +258,7 @@ body {
 
 	background-image: linear-gradient(0deg, #1f1f1f, #505050);
 	border: none;
-	border-bottom: 1px solid #111111;
-	border-top: 1px solid #777777;
+	border-left: 1px solid #7777775f;
 	outline: 1px solid #111111;
 	box-shadow: 0 0 15px 0px #000000af;
 
@@ -275,16 +279,38 @@ body {
 		}	
 	}
 
-	.member > .tag {
-		margin-left: 1px;
-		padding: 0;
-		background: none;
-		color: #68d;
-		text-shadow: -1px 0;
-		letter-spacing: 1px;
-		font-weight: 400;
+	.list {
+		flex: unset;
+		align-self: center;
+		width: 128px;
+		margin-bottom: 10px;
+		background-image: linear-gradient(0deg, #0a0a0a, #333333);
+		background-attachment: fixed;
+		border-bottom: 1px solid #444444;
+		outline: 1px solid #111111;
+		overflow-y: auto;
 
-		&:before	{ content: "["; }
-		&:after		{ content: "]"; }
+		.member {
+			padding: 2px 10px;
+			border-top: 1px solid #111111;
+    		overflow: hidden;
+    		white-space: nowrap;
+    		text-overflow: ellipsis;
+			
+			&:nth-child(even) {
+  				background-color: #0000002f;
+  			}
+
+			.tag {
+				position: relative;
+				right: 10px;
+				margin-right: -2px;
+				padding: 2px 6px;
+				color: #efefef8f;
+				background-color: #35a;
+				background-image: linear-gradient( 0deg, #5f5f5f9f 0%, #3f3f3f9f 49%, #2a2a2a9f 50%, #1313139f 100% );
+				border-right: 1px solid #111111;
+			}
+		}
 	}
 }

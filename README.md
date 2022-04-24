@@ -15,25 +15,30 @@ It also adds a few simple animations to further improve the user experience!
 ![image](https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/cmdbox.gif)
 
 ## How do I install it?
-### The quick way...
-> If you're not using Firefox, it is highly recommended to download the **compat** variant of the theme from the Releases page. 
+### __(Recommended)__ Using the Package Manager
+__**[Set up my personal package repository](https://github.com/Driftini/w96pkgs/blob/main/README.md)**__, then install Smoothie from the Package Manager.
 
+That's all!
+
+### Manually
 Simple: download the latest release's CSS file and, in https://windows96.net, import it in `C:/user/appdata/MsgRoom/themes`.
 Finally, open MsgRoom and in the menubar, go from **Session** to **Themes**, then choose **Smoothie**.
 
-### ...and the slow one
-Alternatively, you can export the CSS file (only compatible with Firefox) yourself, straight from the source SCSS file.
+### Compiling
+Alternatively, you can compile the CSS file (only tested with Firefox) yourself, straight from the source SCSS file.
 
 A word of warning: **this only works on Linux for now.**
 
 First, make sure you have installed `git` and `sass` from your distro's package manager (the package names here are from the Arch repos, no idea if other distros name them differently).
 
 Next up, enter these command lines.
+
 ```bash
 git clone --depth=1 https://github.com/Driftini/smoothie-msgroom
 cd smoothie-msgroom
 bash build
 ```
+
 Once done, you'll find the CSS file in the newly created `out` folder.
 
 Obviously all that's left to do now is import the file in the right path in Win96 and enable it in MsgRoom.

@@ -4,7 +4,7 @@
 rm -r out
 mkdir out
 
-sass -t compressed --sourcemap=none src/smoothie.scss out/Smoothie.css
+sass -t compact --sourcemap=none src/smoothie.scss out/Smoothie.css
 
 if [ $? == 0 ]
 then
