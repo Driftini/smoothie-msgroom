@@ -8,15 +8,15 @@
 </div>
 
 
-# Smoothie
-**Smoothie** is a custom theme for Windows 96's MsgRoom, intended to resemble the smooth and gradient rich aesthetics of old OSes and apps.
+# Smoothie for MsgRoom
+This is a Windows96 MsgRoom port of my **Smoothie** theme, intended to resemble the smooth and gradient rich aesthetics of old OSes and apps.
 
 It also adds a few simple animations to further improve the user experience!
 ![image](https://raw.githubusercontent.com/Driftini/smoothie-msgroom/main/cmdbox.gif)
 
 ## How do I install it?
 ### __(Recommended)__ Using the Package Manager
-__**[Set up my personal package repository](https://github.com/Driftini/w96pkgs/blob/main/README.md)**__, then install Smoothie from the Package Manager.
+__**[Set up my personal package repository](https://github.com/Driftini/w96pkgs/blob/main/README.md)**__, then install *Smoothie for MsgRoom* from the Package Manager.
 
 That's all!
 
@@ -24,24 +24,7 @@ That's all!
 Simple: download the latest release's CSS file and, in https://windows96.net, import it in `C:/user/appdata/MsgRoom/themes`.
 Finally, open MsgRoom and in the menubar, go from **Session** to **Themes**, then choose **Smoothie**.
 
-### Compiling
-Alternatively, you can compile the CSS file (only tested with Firefox) yourself, straight from the source SCSS file.
-
-A word of warning: **this only works on Linux for now.**
-
-First, make sure you have installed `git` and `sass` from your distro's package manager (the package names here are from the Arch repos, no idea if other distros name them differently).
-
-Next up, enter these command lines.
-
-```bash
-git clone --depth=1 https://github.com/Driftini/smoothie-msgroom
-cd smoothie-msgroom
-bash build
-```
-
-Once done, you'll find the CSS file in the newly created `out` folder.
-
-Obviously all that's left to do now is import the file in the right path in Win96 and enable it in MsgRoom.
+Obviously, all that's left to do now is import the file in the right path in Win96 and enable it in MsgRoom.
 
 ## Why this name?
 No idea, really. An old (unrelated) stylesheet I made was called Pancake, so I guessed it would've been cool to keep naming themes after desserts.
